@@ -1,0 +1,37 @@
+.halls__item {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 80px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 575px;
+  height: 350px;
+  margin-bottom: 20px;
+  padding-top: 140px; 
+}
+
+.halls__item:not(:nth-child(2n)) {
+  margin-right: 20px;
+}
+
+.halls__item:nth-last-child(-n+2) {
+margin-bottom: 0;
+}
+  
+
+.halls__item--bg-img1 {
+  background-image: url("../img/bg-img1.jpg");
+}
+
+.halls__item--bg-img2 {
+  background-image: url("../img/bg-img2.jpg");
+}
+
+.halls__item--bg-img3 {
+  background-image: url("../img/bg-img3.jpg");
+}
+
+.halls__item--bg-img4 {
+  background-image: url("../img/bg-img4.jpg");
+}

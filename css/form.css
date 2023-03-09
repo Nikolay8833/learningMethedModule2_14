@@ -1,0 +1,11 @@
+.form {
+  font-size: 14px;
+}
+
+.form__fieldset {
+  padding: 10px 15px;
+}
+
+.form__label {
+  margin-right: 10px;
+}
